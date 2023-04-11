@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Cinzel+Decorative:wght@700&family=Mulish:wght@300&display=swap');
+
+/* Prueba de CSS */
+
+body {
+  background-image:url(../img/fondosodastereo.jpg);
+  font-family: 'Mulish', sans-serif;
+}
+
+/*Resetear configuración que agrega el navegador*/
+
+  html, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Caja contenedora */
+
+.contenedor {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  align-items: center;
+}
+
+.encabezado {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: justify;
+  background-color: yellow;
+}
+
+.banda {
+background-color: black;
+text-align: center;
+border: 1px solid black;
+padding: 1px;
+}
+
+.graciasporvenir {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.biografia {
+font-size: 50px;
+text-align: center;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+.cuerpo1 {
+border: 2px solid black;
+padding: 20px;
+text-align: justify;
+background-color: white;
+}
+
+.menu {
+display: inline-block;
+padding: 10px;
+list-style: none;
+}
+
+.youtube {
+  list-style: none;
+  text-decoration: none;
+}
+
+.vinculo {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.vinculo2 {
+  color: yellow;
+  text-decoration: none;
+  padding: 60px;
+}
+
+.vinculo:hover {
+  color: black;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.vinculo2:hover {
+  color: black;
+  background-color: yellow;
+  padding: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.videoclip {
+  text-align: center;
+  background-color: yellow;
+  border: 2px solid black;
+  width: 58%;
+  font-size: 25px;
+  font-family: 'Bayon', sans-serif;
+}
+
+.center {
+   text-align: center;
+  }
+
+  .center2 {
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid black; 
+    font-size: 25px;
+    font-family: 'Bayon', sans-serif;
+   }
+
+   .center3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid yellow; 
+    font-size: 25px;
+    padding: 10px;;
+    font-family: 'Mulish', sans-serif;
+   }
+
+.disco {
+  background-color: yellow;
+  border: 2px solid black;
+  text-align: center;
+  width: 33%;
+  padding: 2px;
+  font-size: 25px;
+  font-family: 'Bayon', sans-serif;
+  }
+
+.refe {
+  background-color: white;
+  border:1px solid black;
+  align-items: baseline;
+  text-align: justify;
+  padding: 4px;
+  width: 40%;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.listado2 {
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  font-family: 'Bayon', sans-serif;
+}
+
+.nuevolistado {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  font-family: 'Mulish', sans-serif;
+}
+
+.piedepagina {
+padding: 1px;
+text-align: center;
+font-size: 35px;
+background-color: black;
+color: white;
+font-family: 'Bayon', sans-serif;
+}
+
+
+/* Para las fotos*/
+
+.adaptable {
+  height: auto;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.borde {
+border: 3px solid black;
+}
+
+@media screen and (max-width:800px) {
+
+  .contenedor {
+    width: 100%;
+  }
+
+}
+
+/*Para las fotos*/
+
+.primerparrafo {
+  font-size: 27px;
+}
