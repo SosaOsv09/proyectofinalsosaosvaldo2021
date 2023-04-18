@@ -82,15 +82,16 @@ list-style: none;
 .vinculo:hover {
   color: black;
   background-color: white;
-  padding: 15px;
+  padding: 12px;
   border: 1px solid black;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .vinculo2:hover {
   color: black;
   background-color: yellow;
-  padding: 15px;
+  padding: 11px;
   border: 1px solid black;
   text-decoration: none;
 }
