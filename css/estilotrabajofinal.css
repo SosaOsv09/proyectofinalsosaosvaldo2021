@@ -34,7 +34,7 @@ body {
 background-color: black;
 text-align: center;
 border: 1px solid black;
-padding: 1px;
+padding: 2px;
 }
 
 .graciasporvenir {
@@ -70,7 +70,7 @@ list-style: none;
 .vinculo {
   color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 1px;
 }
 
 .vinculo2 {
@@ -82,7 +82,7 @@ list-style: none;
 .vinculo:hover {
   color: black;
   background-color: white;
-  padding: 12px;
+  padding: 1px;
   border: 1px solid black;
   text-decoration: none;
   transition: all 0.3s;
